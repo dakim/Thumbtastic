@@ -4,14 +4,14 @@ class ThumbtasticGrailsPlugin {
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.7 > *"
     // the other plugins this plugin depends on
-    def dependsOn = [:]
+    def dependsOn = ['resources':'1.0 > *', 'jquery':'1.0 > *']
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp"
     ]
 
     // TODO Fill in these fields
-    def author = "Your name"
+    def author = "David Kimont"
     def authorEmail = ""
     def title = "Plugin summary/headline"
     def description = '''\\
