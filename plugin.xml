@@ -1,0 +1,19 @@
+<plugin name='thumbtastic' version='0.1' grailsVersion='1.3.7 &gt; *'>
+  <author>Your name</author>
+  <title>Plugin summary/headline</title>
+  <description>\
+Brief description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/thumbtastic</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>ThumbtasticResources</resource>
+    <resource>UrlMappings</resource>
+    <resource>thumbtastic.ShowController</resource>
+    <resource>thumbtastic.ThumbtasticTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
