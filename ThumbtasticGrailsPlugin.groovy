@@ -11,7 +11,7 @@ class ThumbtasticGrailsPlugin {
     ]
 
     // TODO Fill in these fields
-    def author = "Your name"
+    def author = "David Kimont"
     def authorEmail = ""
     def title = "Plugin summary/headline"
     def description = '''\\
